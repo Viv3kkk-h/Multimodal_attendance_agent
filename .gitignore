@@ -1,0 +1,37 @@
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Personal recordings and temporary test media
+Recording.m4a
+sample_audio.wav
+invalid_test.wav
+missing_test_video.mp4
+
+# Generated session data and reports
+results/*.csv
+results/*.txt
+
+# Keep the results directory in Git
+!results/.gitkeep
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Local environment package snapshot
+installed-packages.txt
+
+# Local environment package snapshot
+installed-packages.txt
